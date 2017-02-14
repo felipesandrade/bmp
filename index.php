@@ -4,7 +4,7 @@
     
 		<!--
 
-		Desenvolvedor: Felipe Viana
+		Desenvolvedor: Felipe Viana, Lucas Magalhaes e Edleno Matos
 		
 		Contato: (85) 98808.4593
 		
