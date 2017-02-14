@@ -1,0 +1,425 @@
+body.site-html {
+		
+		background: url('../imagens/topo_html_subsites_novo.jpg') repeat-x scroll 0% 0% #FFF;
+        background-color: #FFF;
+        background-image: url('../imagens/topo_html_subsites_novo.jpg');
+        background-repeat: repeat-x;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+}
+h2{
+		padding: 0px;
+		margin-left: 0px;
+		margin-top: 26px;
+		border: 0px none;
+		font: 16px;
+		font-weight: bold; 
+		color: #215b35;
+		clear: both;
+		font-family: AllerRegular,Trebuchet MS;
+}
+
+h3{
+		padding: 0px;
+		margin-left: 10px;
+		border: 0px none;
+		font: 16px;
+		font-weight: normal; 
+		color: #626666;
+		clear: both;
+		font-family: AllerRegular,Trebuchet MS;
+}
+
+header.logo {
+		padding: 0px;
+		margin-left: 20px;
+		border: 0px none;
+		top: 50px;
+		font: inherit;
+		vertical-align: baseline;
+		position: absolute;
+}
+
+a {
+	
+		text-decoration: none;
+		font-weight: bold;
+		color: #3366CC;
+	
+}
+
+a:hover {
+	
+		color: #000;
+	
+}
+
+a img {
+	
+		border: 0;
+	
+}
+
+p{		
+		padding: 60px;
+		margin-left: -60px;
+		margin-top: -60px;
+		border: 0px none;
+		font: 20px;
+		font-weight: normal; 
+		color: #000;
+		clear: both;
+		font-family: AllerRegular,Trebuchet MS;
+		text-decoration :none;
+}
+
+.alerta {
+
+		border: 0px none;
+		top: 0px;
+		margin-left: 12px;
+		font: inherit;
+		vertical-align: baseline;
+		position: alerta;
+		float: left;
+		font-weight:bold; 
+		color: red;
+		
+}
+
+.corpo{
+	
+		padding: 20px;
+		margin-top: 40px;
+		border: 0px;
+		color: #222; 
+		font: 14px;
+		font-family: AllerRegular,Trebuchet MS;
+}
+
+input.form-submit{
+		background: none repeat scroll 0px 0px #1AA095;
+		color: #FFF;
+		cursor: pointer;
+		float: left;
+		height: 40px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0px;
+		width: 140px;
+		font-size: 14px;
+		font-weight: bold;
+				
+}
+
+.rodape{
+		background: url('../imagens/topo_body_novo.jpg');
+		background-attachment: scroll;
+        background-color: #FFF;
+		color: white;
+		font-size: 12px;
+		border: 0px;
+		font-family: AllerRegular,Trebuchet MS;
+		text-align: center;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		clear: both;
+}
+
+#user {
+		display:none;
+}
+
+ul {
+	
+		list-style-type: none;
+		margin: 141px 0px;
+		padding: 0px;
+		overflow: hidden:
+
+}
+
+li{
+	
+		float: left;
+	
+}
+
+li a, .dropbtn{
+	
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 16px 16px;
+		text-decoration: none;
+	
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+	
+		background-color: #626666;
+		color: white;
+	
+}
+
+li.dropdown{
+	
+		display: inline-block;
+	
+}
+
+.dropdown-content{
+	
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	
+}
+
+.dropdown-content a {
+	
+		color: white;
+		padding: 12px 16 px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+		background-color: #7EC4BE;	
+	
+}
+
+.dropdown:hover .dropdown-content{
+	
+		display: block;
+	
+}
+
+.active{
+	
+		background-color: #626666; 
+	
+}
+
+.botao{
+	
+		background-color: #626666; 
+		color: #fff;
+		width: 60px;
+		height: 40px;
+		border: 0px;
+		font-weight: bold;
+			
+}
+
+.obrigatorio{
+	
+		color: red;
+		font-weight:bold; 	
+	
+}
+
+.tela_login {
+	
+		margin: 250px auto;
+		width: 284px;
+		height: 239px;
+	
+}
+
+.login {
+	
+		height: 20px;
+		width: 220px;
+		margin-left: 30px;
+		margin-top: 122px;
+		background-color: #C3C7C7;
+		color: #000;
+	
+}
+
+.senha {
+	
+		height: 20px;
+		width: 220px;
+		margin-left: 30px;
+		margin-top: 25px;
+		*margin-top: 22px; /* Hack IE7 */
+		*width: 220px; /* Hack IE7 */
+		_margin-top: 22px; /* Hack IE6 */
+		_width: 220px; /* Hack IE6 */
+		background-color:  #C3C7C7;
+		color: #000;
+	
+}
+
+.logar {
+	
+
+		margin-left: 110px;
+		margin-top: 10px;
+		background-color: #626666; 
+		color: #fff;
+		width: 60px;
+		height: 40px;
+		border: 0px;
+		font-weight: bold;
+	
+}
+
+#usuario{
+	
+		margin-top: 100px;
+		margin-left: 30px;
+		position: absolute;
+		font-weight: bold;
+		font-family: AllerRegular,Trebuchet MS;
+			
+}
+
+#senha{
+	
+		margin-top: 0px;
+		margin-left: 30px;
+		position: absolute;
+		font-weight: bold;
+		font-family: AllerRegular,Trebuchet MS;
+
+}
+
+#alerta_login{
+	
+		margin-top: 75px;
+		margin-left: 30px;
+		position: absolute;
+		font-weight: bold;
+		font-family: AllerRegular,Trebuchet MS;
+		color: red;
+			
+}
+
+.alerta_login {
+			
+		margin-top: 75px;
+		left: 43%;
+		position: absolute;
+		font-weight: bold;
+		font-family: AllerRegular,Trebuchet MS;
+		color: red;
+		
+}
+
+.painel{	
+	
+		padding: 0px;
+		margin-left: -8px;
+		border: 0px none;
+		text-align: center;
+		top: 280px;
+		font-weight: bold;
+		font-size: 35px;
+		font-family: AllerRegular,Trebuchet MS;
+		color: #626666;
+		vertical-align: baseline;
+		position: absolute;
+
+}
+
+.cabecalho{
+	
+		background-color: #626666;
+		color: white;
+			
+}
+
+#linhas{
+	
+		color: #626666;
+		background-color: white;	
+	
+}
+
+.destaque:nth-child(2) {
+	
+		background-color: #7EC4BE;
+		position: relative;
+		-webkit-animation-name: destque; /* Safari 4.0 - 8.0 */
+		-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+		animation-name: destaque;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+  
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes destaque {
+	
+		0%   {background-color:	#7EC4BE;}
+		25%  {background-color:	white;}
+		50%  {background-color:	#7EC4BE;}
+		75%  {background-color:	white;}
+		100% {background-color:	#7EC4BE;}
+
+}
+
+/* Standard syntax */
+@keyframes destaque {
+	
+		0%   {background-color:	#7EC4BE;}
+		25%  {background-color:	white;}
+		50%  {background-color:	#7EC4BE;}
+		75%  {background-color:	white;}
+		100% {background-color:	#7EC4BE;}
+
+}
+
+#hora {
+	
+		top: 4%;
+		left: 70%;
+		vertical-align: baseline;
+		position: absolute;
+		float: right;
+		font-size: 40px;
+		font-weight: bold;
+		font-family: AllerRegular,Trebuchet MS;
+		color: #626666;		
+		padding: 0px;
+					
+}
+
+#data {
+	
+		top: 9%;
+		left: 70%;
+		vertical-align: baseline;
+		position: absolute;
+		float: right;
+		font-size: 40px;
+		font-weight: bold;
+		font-family: AllerRegular,Trebuchet MS;
+		color: #626666;		
+		padding: 0px;
+	
+}
+
+#sistema {
+	
+		top: 10%;
+		left: 130%;
+		width: 725px;
+		vertical-align: baseline;
+		position: absolute;
+		float: right;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: AllerRegular,Trebuchet MS;
+		color: #626666;		
+		padding: 0px;
+
+}
