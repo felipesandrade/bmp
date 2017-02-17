@@ -10,7 +10,7 @@
 		function avaliacoes_manutencao() {
 		
 			// Instancia uma nova conexão a partir da variável "$con" existente no arquivo "conecta.php".
-			$this->con = new conexao();	
+			$this->con = new conexao_mysql();	
 			
 		}
 		
@@ -30,22 +30,24 @@
 					} 
 					
 					// A variável "$filtro" recebe o valor do parâmetro "filtro" passado pela url.
-					@$filtro = $_REQUEST['pesquisa'];
-					
+					@$filtro_pac_prontuario = $_REQUEST['pac_prontuario'];
+										
 					// Verifica se a variável é igual a vazio.
-					if($filtro == '')
+					if($filtro_pac_prontuario == '')
 					{
 						
 						// Atribui o valor "vazio" a variável "$filtrar_por".
-						$filtrar_por = '';
+						$filtrar_pac_prontuario = '';
 						
 					}
 					else
 					{
 						// Atribui o valor "filtro" a variável "$filtrar_por".
-						$filtrar_por = $filtro;
+						$filtrar_pac_prontuario = $filtro;
 						
 					} 
+					
+					@$filtro_pac_nome = $_REQUEST['pac_nome'];
 					
 					// Armazena a query sql na variável "$sql".
 					$sql = "select 

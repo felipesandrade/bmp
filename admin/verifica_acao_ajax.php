@@ -1,6 +1,9 @@
 <?php
 		
-	// Importa o "conecta.php".
+	// Importa o "conecta_mysql.php".
+	//require('../conexao_bd/conecta_mysql.php');
+	
+	// Importa o "conecta_ora.php".
 	require('../conexao_bd/conecta.php');
 						
 	// Variável tabela recebe o valor passado na url como parâmetro. O "@" é utilizado para remover mensagens de erro do PHP.

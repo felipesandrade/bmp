@@ -1,10 +1,10 @@
-﻿<html>
+<html>
 
 	<head>
     
 		<!--
 
-		Desenvolvedores: Felipe Viana, Lucas Magalhaes e Edleno Matos
+		Desenvolvedor: Felipe Viana
 		
 		Contato: (85) 98808.4593
 		
@@ -30,7 +30,7 @@
 
 <?php
 
-	header("Location: http://172.30.40.2/sigam/admin");
+	header("Location: http://172.30.40.2/bmp/admin");
 	
 ?>
 

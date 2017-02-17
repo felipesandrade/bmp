@@ -24,7 +24,7 @@
 				
 		// Importa a classe conexão necessária para comunicação com banco de dados.
 		require ('../conexao_bd/conecta.php');
-		
+				
 		// Armazena o valor digitado pelo usuário no campo texto e passado pelo "POST" na variável "$texto_login".
 		$texto_login = $_POST['usu_login'];
 		

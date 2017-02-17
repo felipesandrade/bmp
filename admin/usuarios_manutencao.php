@@ -10,7 +10,7 @@
 		function usuarios_manutencao() {
 		
 			// Instancia uma nova conexão a partir da variável "$con" existente no arquivo "conecta.php".
-			$this->con = new conexao();	
+			$this->con = new conexao_mysql();	
 			
 		}
 		

@@ -55,7 +55,7 @@
         
         <link type="text/css" rel="stylesheet"  href="../scripts/jqueryui/css/dot-luv/jquery-ui-1.8.16.custom.css" media="screen"  />
                 
-        <title> Sistema Gerenciador de Avaliações Médicas - SIGAM </title>
+        <title> Sistema de Registro de Boletim Médico do Paciente </title>
         
         <script language="javascript" type="text/javascript" src="../scripts/jqueryui/js/jquery-1.6.2.min.js"> </script>
         
@@ -89,7 +89,7 @@
 
 			<h2>Instituto Dr. José Frota</h2>
 			
-			<div id="sistema">Sistema Gerenciador de Avaliações Médicas - SIGAM</div>
+			<div id="sistema">Sistema de Registro de Boletim Médico do Paciente</div>
 
 		</header>
 		        
@@ -110,10 +110,8 @@
 					
 					<div class="dropdown-content">
 				
-						<a href="#" onclick="carregandoAjax('verifica_acao_ajax.php', {tabela: 'especialidades', acao: 'listar' });" title="Cadastrar Especialidades" alt="Cadastrar Especialidades"> Especialidades </a>
-						
-						<a href="#" onclick="carregandoAjax('verifica_acao_ajax.php', {tabela: 'solicitantes', acao: 'listar' });"  title="Cadastrar Solicitantes" alt="Cadastrar Solicitantes"> Solicitantes </a>
-						
+						<a href="#" onclick="carregandoAjax('verifica_acao_ajax.php', {tabela: 'especialidades', acao: 'listar' });" title="Cadastrar Especialidades" alt="Cadastrar Especialidades"> Pacientes </a>
+												
 						<a href="#"  onclick="carregandoAjax('verifica_acao_ajax.php', {tabela: 'usuarios', acao: 'listar' });"  title="Cadastrar Usuários" alt="Cadastrar Usuários"> Usuários </a>
 				
 					</div>

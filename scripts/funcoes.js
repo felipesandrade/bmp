@@ -251,6 +251,23 @@ function validar_avaliacoes() {
 			
 		} 
 		
+}
+
+function validar_clinica() {
+		
+		var clinica = form_pesquisa.pac_clinica.value;
+						
+		var div = document.getElementById("alerta");
+		
+		if(clinica == "" || clinica == null){
+			
+			div.innerHTML = "Campo Clínica obrigatório.";
+						
+			form_pesquisa.pac_clinica.focus();
+			
+			return false;		
+						
+		}
 }	
 
 
